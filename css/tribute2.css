@@ -1,0 +1,113 @@
+body
+{
+    background-color: #191919;
+    margin: 20;
+    padding: 20;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    color: #fff;
+    
+}
+.container
+{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card
+{
+    display: flex;
+    position: relative;
+    left: -6%;
+    width: 300px;
+    height: 370px;
+    transition: 0.3s ease-out;
+    box-shadow: 0.3px 15px rgba(0, 0, 0, 0.7);
+    margin-bottom: 100px;
+}
+.card .imgbox
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.card .imgbox img
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    display: block;
+    transition: 0.5s;
+    margin-bottom: 10px;
+
+}
+.card .content
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    height: 80px;
+    padding: 20px;
+    background: orangered;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card:hover .content
+{
+    width: 100%;
+    height: 75%;
+    left: 0;
+    bottom: 0;
+}
+.content p
+{
+    margin: 10px 0 0;
+    padding: 1em 1em;
+    transform: translate(2em);
+    line-height: 1.3em;
+    transition: 0.3s;
+    text-align: justify;
+    opacity: 0;
+    color: white;
+}
+.card:hover .content p
+{
+    transform: translate(0);
+    opacity: 1;
+}
+h2
+{
+    text-align: center;
+    color: white;
+}
+
+.card:hover 
+{
+    box-shadow: 0 0 5em rgba(0, 0, 0, 0.4);
+
+}
+button 
+  {
+      top: 2%;
+      right: 0%;
+      width: 30px;
+      position: sticky;
+      transform: translate(-50%) translateY(-50%);
+      background-color: transparent ;
+      font-size: 14px;
+      opacity: 0.5px;
+      color: orangered;
+      border-color: gray;
+      font-style: oblique;
+      position: fixed;
+  }

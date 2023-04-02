@@ -1,0 +1,63 @@
+body {
+    background-image: url('https://2.bp.blogspot.com/-utKimTiUA5s/V-EF3ErwW0I/AAAAAAAAC7k/eNfN7aHNBCUvG2CR5aw8MxJ7m8NBh0rVwCLcB/s640/hinh-nen-dep-win10-1920x1080-11.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+ 
+  p
+  {
+      color: rgb(255, 254, 254);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 10px;
+      top: 77%;
+      left: 60%;
+      position: absolute;
+      transform: translate(-50%) translateY(-50%);
+      outline: px;
+  }
+ 
+.image4
+  {
+      top: 8%;
+      left: 3%;
+      position: absolute;
+      transform: translate(-50%) translateY(-50%);
+  }
+  .p3
+  {
+      color: rgb(255, 254, 254);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 10px;
+      top: 12%;
+      left: 3%;
+      position: absolute;
+      transform: translate(-50%) translateY(-50%);
+      outline: px;
+  }
+  .p2
+  {
+      color: rgb(255, 254, 254);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 10px;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%) translateY(-50%);
+      outline: px;
+  }
+ 
+  button 
+  {
+      top: 95%;
+      left: 5%;
+      position: absolute;
+      transform: translate(-50%) translateY(-50%);
+      background-color: transparent ;
+      font-size: 20px;
+      opacity: 0.5px;
+      color: rgba(255, 254, 254, 0.719);
+      border-color: gray;
+      font-style: oblique;
+  }
+  
